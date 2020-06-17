@@ -15,3 +15,5 @@ public class q6 {
 	}
 
 }
+//output:
+//Difference=25164150
