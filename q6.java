@@ -7,10 +7,10 @@ public class q6 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int s1=0,s2=0;
-        s1=(100*101*201)/6;
-        s2=(100*101)/2;
-        System.out.println("Difference="+((s2*s2)-s1));
+		int a=0,b=0;
+        a=(100*101*201)/6;
+        b=(100*101)/2;
+        System.out.println("Difference="+((b*b)-a));
 
 	}
 
