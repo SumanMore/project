@@ -27,3 +27,5 @@ public class q9 {
 	    System.out.println(a*b*c);
 	}
 	}
+//output:
+//31875000
