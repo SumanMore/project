@@ -18,5 +18,6 @@ while(x%t==0 && t<x)
  }
 }
 
-
+//output
+//largest prime factor=6857
 
