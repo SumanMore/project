@@ -5,28 +5,25 @@ public class q7 {
 
 public static void main(String args[])
 {
-	int f=1,t=0,p=1;
-    for(int x=3;x>0;x+=2)
-    { 
-        for(int y=3;y<=Math.sqrt(x);y+=2)
-        {
-            if(x%y==0)
-            {
-                t=1;
-             }
-         }
-         if(t==0)
-         {
-             p++;               
-             if(p==10001)
-              {
-               System.out.println(x);
-                break;
-               }            
-         }
-         t=0;
-    }
+int i,j,c=0,c1=0;
+		for(i=1;;i++)
+		{ c=0;
+			for(j=1;j<=i;j++)
+			{
+			if(i%j==0)
+			{
+				c++;
+			}
+		}
+			if(c==2)
+
+				c1++;
+
+			if(c1==10001)
+				break;
+	}
+		System.out.println("the 10001st prime number ="+i);	
   }
 }
 //output:
-//104743
+//the 10001st prime number =104743
