@@ -3,20 +3,21 @@ package code;
 public class q3
 {
  public static void main(String args[])
+{long num=600851475143l,max;
+
+for(long i=3;i<num;i=i+2)
 {
- long x=600851475143l;
-long max;
-for(long t=3;t<x;t=t+2)
-{
-while(x%t==0 && t<x)
+while(num%i==0 && i<num)
  {
-   x=x/t;
+   num=num/i;
   }
-} max=x;
+} max=num;
 
  System.out.println("largest prime factor="+max);
  }
 }
+
+
 
 //output
 //largest prime factor=6857
