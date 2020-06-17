@@ -1,7 +1,7 @@
 
 //What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 package code;
-public class q25
+public class q5
 {
 	 public static void  main(String args[])
 	 {
