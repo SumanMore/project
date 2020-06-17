@@ -24,3 +24,5 @@ lcm=(a*b)/hcf;
 return lcm;
 }
   }
+//output
+//232792560
