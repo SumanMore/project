@@ -5,8 +5,7 @@ package code;
 public class q9 {
 
 	public static void main(String[] args) {
-		
-		int a=0,b=0,c=0,s=1000;
+	int a=0,b=0,c=0,s=1000;
 	    int d=0;
 	    for(a=1;a<s/3;a++)
 	    {
@@ -15,16 +14,17 @@ public class q9 {
 	            c=s-a-b;
 	            if(a*a+b*b==c*c)
 	            {
-	                ctr++;
+	                d++;
 	                break;
 	            }
 	        }
-	        if(ctr>0)
+	        if(d>0)
 	        {
 	          break;
 	        }
 	    }
-	    System.out.println(a*b*c);
+	    System.out.println(a*b*c);	
+		
 	}
 	}
 //output:
