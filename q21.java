@@ -32,3 +32,5 @@ public static void main(String[] args) {
 
 
 }
+//output
+//the sum =31626
