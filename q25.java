@@ -6,24 +6,26 @@ public class q25
 {
 	 public static void  main(String args[])
 	 {
-	 long lcm=1;
-	 for(long i=2;i<=20;i++)
-	 {
-	     lcm=flcm(lcm,i);
-	 }
-	 System.out.println(lcm);}
-static long flcm(long a,long b)	{
-long hcf=0,lcm=0,i=1;
-long g=a>b?a:b;
-while(i<g)
-{
-    if((a%i==0) && (b%i==0))
-        hcf=i;
-    i++;
+	 for(int k=20;k>=1;k+=20) {
+			if(divisiable(k)) {
+				System.out.println(k);
+				break;
+			}
+		}
+	}
+
+	private static boolean divisiable(int a) {int ctr=0;
+		for(int j=1;j<=20;j++) {
+			if(a%j==0) 
+				ctr++;
+			}if(ctr==20)
+			return true;
+		else 
+			return false;
+	}
+
+
+	
 }
-lcm=(a*b)/hcf;
-return lcm;
-}
-  }
 //output
 //232792560
