@@ -9,7 +9,7 @@ public class q25
 				break;
 			}}}
 		
-private static boolean divisiable(int a)
+static boolean divisiable(int a)
 {int ctr=0,j;
 		for( j=1;j<=20;j++) {
 			if(a%j==0) 
